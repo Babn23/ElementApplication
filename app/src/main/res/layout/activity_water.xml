@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".Water">
+
+
+        <ImageView
+            android:id="@+id/surf_girl"
+            android:layout_width="114dp"
+            android:layout_height="138dp"
+            android:layout_marginTop="272dp"
+            android:src="@drawable/surfing_girl"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.144"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/surfbtn"
+            android:layout_width="160dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="396dp"
+            android:background="@color/white"
+            android:text="Surf Events!"
+            android:textColor="@color/mustard"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/first_wave"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.099"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.518" />
+
+        <ImageView
+            android:id="@+id/beach_volly"
+            android:layout_width="203dp"
+            android:layout_height="184dp"
+            android:layout_marginTop="244dp"
+            android:src="@drawable/vollyball"
+            app:layout_constraintBottom_toTopOf="@id/dirty_iceberg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.923"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="160dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="396dp"
+            android:background="@color/white"
+
+            android:text="Create Events!"
+            android:textColor="@color/mustard"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/dirty_iceberg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.884"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.518" />
+
+        <TextView
+            android:id="@+id/Text_Water"
+            android:layout_width="276dp"
+            android:layout_height="77dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:gravity="center"
+            android:text="Water"
+            android:textColor="@color/blue"
+            android:textSize="50sp"
+            app:layout_constraintBottom_toTopOf="@+id/intro"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.205" />
+
+        <TextView
+            android:id="@+id/intro"
+            android:layout_width="413dp"
+            android:layout_height="146dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="You are 70% water how can you not care about it ?!
+                                                Our precious water is in danger ! Let our little friends tell you all about it !"
+            android:textColor="@color/darkblue"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/Text_Water" />
+
+        <ImageView
+            android:id="@+id/first_wave"
+            android:layout_width="202dp"
+            android:layout_height="67dp"
+            android:layout_marginTop="468dp"
+            android:src="@drawable/watersymb"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/dirty_iceberg"
+            android:layout_width="177dp"
+            android:layout_height="228dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/iceberg_pollution"
+            app:layout_constraintBottom_toTopOf="@+id/second_wave"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.931"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/beach_volly"
+            app:layout_constraintVertical_bias="0.6" />
+
+        <TextView
+            android:id="@+id/main_causes"
+            android:layout_width="219dp"
+            android:layout_height="283dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:padding="10dp"
+            android:text="What are the main causes for water pollution? Let Titus the Turtle answer you"
+            android:textColor="@color/darkblue"
+            android:textSize="29sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/first_wave" />
+
+        <ImageView
+            android:id="@+id/pol2"
+            android:layout_width="195dp"
+            android:layout_height="120dp"
+            android:src="@drawable/pol2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.013"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/main_causes"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/turtle"
+            android:layout_width="102dp"
+            android:layout_height="62dp"
+            android:src="@drawable/turtle"
+            android:clickable="true"
+            app:layout_constraintBottom_toBottomOf="@id/main_causes"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.31"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/first_wave"
+            app:layout_constraintVertical_bias="0.951" />
+
+        <ImageView
+            android:id="@+id/second_wave"
+            android:layout_width="202dp"
+            android:layout_height="67dp"
+            android:layout_marginTop="268dp"
+            android:src="@drawable/watersymb"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/beach_volly" />
+
+        <TextView
+            android:id="@+id/why_to_protect"
+            android:layout_width="186dp"
+            android:layout_height="364dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:padding="10dp"
+            android:text="Why must we protect our oceans and seas ? Let's hear what Shadi the Shrimp has to say about this!"
+            android:textColor="@color/darkblue"
+            android:textSize="29sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.942"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/second_wave" />
+
+        <ImageView
+            android:id="@+id/shrimp"
+            android:layout_width="102dp"
+            android:layout_height="62dp"
+            android:src="@drawable/shrimp"
+            app:layout_constraintBottom_toBottomOf="@id/why_to_protect"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/why_to_protect"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <ImageView
+            android:id="@+id/third_wave"
+            android:layout_width="202dp"
+            android:layout_height="67dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/watersymb"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/pol2" />
+
+        <TextView
+            android:id="@+id/consenq"
+            android:layout_width="200dp"
+            android:layout_height="316dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:padding="10dp"
+            android:text="What will happen if we don't save our seas? Let Julie the Jellyfish teach you more!"
+            android:textColor="@color/darkblue"
+            android:textSize="29sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/third_wave" />
+
+        <ImageView
+            android:id="@+id/jellyfish"
+            android:layout_width="120dp"
+            android:layout_height="75dp"
+            android:src="@drawable/julie"
+            app:layout_constraintBottom_toBottomOf="@id/consenq"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.31"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/consenq"
+            app:layout_constraintVertical_bias="0.951" />
+
+        <ImageView
+            android:id="@+id/trashsurf"
+            android:layout_width="189dp"
+            android:layout_height="120dp"
+            android:src="@drawable/trashsurf"
+            app:layout_constraintHorizontal_bias="9.8"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/why_to_protect"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/fourth_wave"
+            android:layout_width="202dp"
+            android:layout_height="67dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/watersymb"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/trashsurf" />
+
+        <TextView
+            android:id="@+id/how_help"
+            android:layout_width="200dp"
+            android:layout_height="316dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:padding="10dp"
+            android:text="How can you do your part ? Donny the Dolphin wants you to hear his tips!"
+            android:textColor="@color/darkblue"
+            android:textSize="29sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.98"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/fourth_wave" />
+
+        <ImageView
+            android:id="@+id/dolphin"
+            android:layout_width="120dp"
+            android:layout_height="75dp"
+            android:src="@drawable/donny"
+            app:layout_constraintBottom_toBottomOf="@id/how_help"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/how_help"
+            app:layout_constraintVertical_bias="0.951" />
+
+        <ImageView
+            android:id="@+id/trashwhale"
+            android:layout_width="195dp"
+            android:layout_height="120dp"
+            android:src="@drawable/whale"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.013"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/consenq"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/fifth_wave"
+            android:layout_width="202dp"
+            android:layout_height="67dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/watersymb"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/trashwhale" />
+
+        <TextView
+            android:id="@+id/is_too_late"
+            android:layout_width="200dp"
+            android:layout_height="340dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:padding="10dp"
+            android:text="Is it already too late? No it's not! Says Sandy the Starfish , and here's why!"
+            android:textColor="@color/darkblue"
+            android:textSize="29sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/fifth_wave" />
+
+        <ImageView
+            android:id="@+id/starfish"
+            android:layout_width="120dp"
+            android:layout_height="75dp"
+            android:src="@drawable/sandy"
+            app:layout_constraintBottom_toBottomOf="@id/is_too_late"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/is_too_late"
+            app:layout_constraintVertical_bias="0.951" />
+
+        <ImageView
+            android:id="@+id/stuck_crab"
+            android:layout_width="189dp"
+            android:layout_height="120dp"
+            android:src="@drawable/stuckcrab"
+            app:layout_constraintHorizontal_bias="9.8"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/how_help"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:layout_width="419dp"
+            android:layout_height="115dp"
+            android:src="@drawable/sand"
+            app:layout_constraintBottom_toBottomOf="@id/is_too_late"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="2" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

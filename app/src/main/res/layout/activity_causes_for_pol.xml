@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Causes_for_pol">
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewPager2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="false"
+                android:foregroundGravity="center"
+                android:overScrollMode="never"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <TextView
+                android:id="@+id/MarineFriends"
+                android:layout_width="328dp"
+                android:layout_height="108dp"
+                android:gravity="center"
+                android:text="Marine friends are here to help!"
+                android:textColor="@color/darkblue"
+                android:textSize="35sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.024" />
+
+            <TextView
+                android:id="@+id/q1"
+                android:layout_width="377dp"
+                android:layout_height="82dp"
+                android:gravity="center"
+                android:text="What are the main causes for water pollution?"
+                android:textColor="@color/darkblue"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.529"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/MarineFriends"
+                app:layout_constraintVertical_bias="0.047" />
+
+            <ImageView
+                android:id="@+id/CUTE_LILGUY"
+                android:layout_width="95dp"
+                android:layout_height="81dp"
+                android:clickable="true"
+                android:onClick="clickTurtle"
+                android:src="@drawable/turtle"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.844"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.283" />
+
+            <TextView
+                android:id="@+id/q2"
+                android:layout_width="441dp"
+                android:layout_height="120dp"
+                android:drawableTop="@drawable/smolwave"
+                android:gravity="center"
+                android:text="Why must we protect our oceans and seas ?"
+                android:textColor="@color/shrimpred"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.491"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/MarineFriends"
+                app:layout_constraintVertical_bias="0.55" />
+
+            <TextView
+                android:id="@+id/answer2"
+                android:layout_width="428dp"
+                android:layout_height="300dp"
+                android:gravity="center"
+                android:text="The reality is, the ocean is sustaining all of us at  this very moment.  Covering more than 70 percent of world's surface, it is the largest ecosystem on earth. It is essentially the planet's life support system, regulating the air we breathe, the climate we live in, the food we eat and so much more.  As the renowned marine biologist Dr. Sylvia Earle said, 'There is no green without blue.'"
+                android:textColor="@color/shrimplightred"
+                android:textSize="20sp"
+                android:drawableBottom="@drawable/smolwave"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.529"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/q2"
+                 />
+
+            <ImageView
+                android:layout_width="81dp"
+                android:layout_height="78dp"
+                android:src="@drawable/shrimp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.895"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.577" />
+
+            <TextView
+                android:id="@+id/q3"
+                android:layout_width="441dp"
+                android:layout_height="120dp"
+                android:drawableTop="@drawable/smolwave"
+                android:gravity="center"
+                android:text="Why must we protect our oceans and seas ?"
+                android:textColor="@color/shrimpred"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.491"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/MarineFriends"
+                app:layout_constraintVertical_bias="0.55" />
+
+            <TextView
+                android:id="@+id/answer3"
+                android:layout_width="428dp"
+                android:layout_height="300dp"
+                android:gravity="center"
+                android:text="The reality is, the ocean is sustaining all of us at  this very moment.  Covering more than 70 percent of world's surface, it is the largest ecosystem on earth. It is essentially the planet's life support system, regulating the air we breathe, the climate we live in, the food we eat and so much more.  As the renowned marine biologist Dr. Sylvia Earle said, 'There is no green without blue.'"
+                android:textColor="@color/shrimplightred"
+                android:textSize="20sp"
+                android:drawableBottom="@drawable/smolwave"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.529"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/q2"
+                />
+
+            <ImageView
+                android:layout_width="81dp"
+                android:layout_height="78dp"
+                android:src="@drawable/shrimp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.895"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.577" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
